@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Day-15</title>
+		<link
+			href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="day15.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="tools">
+				<input type="color" id="color1" />
+				<input type="color" id="color" >
+				<button id="eraser">
+					<i class="bx bxs-eraser" style="background-color: white;"></i>
+				</button>
+				<button id="decrease5">-5</button>
+				<button id="decrease">-</button>
+                <button id="size">10</button>
+				<button id="increase">+</button>
+				<button id="increase5">+5</button>
+				<a download="example.png" id="save">
+					<i class="bx bxs-save" style="background-color: white;"></i>
+				</a>
+				<button id="clear">X</button>
+			</div>
+			<canvas id="canvas" width="1200px" height="600px"></canvas>
+		</div>
+
+		<script src="day15.js"></script>
+	</body>
+</html>
